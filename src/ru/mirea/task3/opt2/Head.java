@@ -1,4 +1,4 @@
-package ru.mirea.task3;
+package ru.mirea.task3.opt2;
 
 public class Head extends Human {
     private int iq;
@@ -24,5 +24,15 @@ public class Head extends Human {
 
     public void setIq(int iq) {
         this.iq = iq;
+    }
+
+    @Override
+    public String toString(){
+        return "Head{" +
+                "height='" + this.getHeight() + '\'' +
+                ", weight='" + this.getWeight() + '\'' +
+                ", iq='" + this.iq + '\'' +
+                ", isHair='" + this.isHair +
+                '}';
     }
 }

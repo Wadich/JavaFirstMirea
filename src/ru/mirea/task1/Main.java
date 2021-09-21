@@ -1,4 +1,4 @@
-package ru.mirea.task1.opt1;
+package ru.mirea.task1;
 import java.util.Arrays;
 import java.util.Random;
 
