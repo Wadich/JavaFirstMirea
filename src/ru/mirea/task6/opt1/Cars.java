@@ -1,4 +1,4 @@
-package ru.mirea.task6;
+package ru.mirea.task6.opt1;
 
 public class Cars implements Nameable{
     private String name;
@@ -9,5 +9,12 @@ public class Cars implements Nameable{
 
     public String getName(){
         return this.name;
+    }
+
+    @Override
+    public String toString() {
+        return "Cars{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
