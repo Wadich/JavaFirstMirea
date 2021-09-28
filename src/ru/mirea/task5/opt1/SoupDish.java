@@ -14,7 +14,7 @@ public class SoupDish extends Dish {
                 "type='" + this.getType() + '\'' +
                 ", diameter=" + this.getDiameter() +
                 ", isSafeForMicrowave=" + this.isSafeForMicrowave() +
-                ", depth=" + depth +
+                ", depth=" + this.depth +
                 '}';
     }
 }

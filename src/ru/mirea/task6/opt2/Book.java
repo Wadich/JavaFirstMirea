@@ -14,7 +14,7 @@ public class Book implements Priceable {
     @Override
     public String toString() {
         return "Book{" +
-                "price='" + price + '\'' +
+                "price='" + this.price + '\'' +
                 '}';
     }
 }

@@ -38,9 +38,9 @@ public abstract class Dog {
     @Override
     public String toString() {
         return "Dog{" +
-                "description='" + description + '\'' +
-                ", age=" + age +
-                ", name='" + name + '\'' +
+                "description='" + this.description + '\'' +
+                ", age=" + this.age +
+                ", name='" + this.name + '\'' +
                 '}';
     }
 }

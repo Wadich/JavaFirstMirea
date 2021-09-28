@@ -14,7 +14,7 @@ public class Book implements Nameable{
     @Override
     public String toString() {
         return "Book{" +
-                "name='" + name + '\'' +
+                "name='" + this.name + '\'' +
                 '}';
     }
 }

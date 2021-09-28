@@ -14,7 +14,7 @@ public class Cars implements Priceable {
     @Override
     public String toString() {
         return "Cars{" +
-                "price='" + price + '\'' +
+                "price='" + this.price + '\'' +
                 '}';
     }
 }

@@ -15,7 +15,7 @@ public class DessertDish extends Dish {
                 "type='" + this.getType() + '\'' +
                 ", diameter=" + this.getDiameter() +
                 ", isSafeForMicrowave=" + this.isSafeForMicrowave() +
-                ", isForIceCream=" + isForIceCream +
+                ", isForIceCream=" + this.isForIceCream +
                 '}';
     }
 }

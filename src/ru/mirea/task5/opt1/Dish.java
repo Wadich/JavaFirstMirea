@@ -39,9 +39,9 @@ public abstract class Dish {
     @Override
     public String toString() {
         return "Dish{" +
-                "type='" + type + '\'' +
-                ", diameter=" + diameter +
-                ", isSafeForMicrowave=" + isSafeForMicrowave +
+                "type='" + this.type + '\'' +
+                ", diameter=" + this.diameter +
+                ", isSafeForMicrowave=" + this.isSafeForMicrowave +
                 '}';
     }
 }

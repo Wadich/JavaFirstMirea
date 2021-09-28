@@ -38,9 +38,9 @@ public abstract class Furniture {
     @Override
     public String toString() {
         return "Furniture{" +
-                "description='" + description + '\'' +
-                ", weight=" + weight +
-                ", price=" + price +
+                "description='" + this.description + '\'' +
+                ", weight=" + this.weight +
+                ", price=" + this.price +
                 '}';
     }
 }
