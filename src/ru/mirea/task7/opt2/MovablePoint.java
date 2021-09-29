@@ -6,6 +6,8 @@ public class MovablePoint implements Movable{
     private int xSpeed;
     private int ySpeed;
 
+    public MovablePoint(){}
+
     public MovablePoint(int x, int y, int xSpeed, int ySpeed){
         this.x = x;
         this.y = y;
@@ -21,6 +23,14 @@ public class MovablePoint implements Movable{
                 ", xSpeed=" + this.xSpeed +
                 ", ySpeed=" + this.ySpeed +
                 '}';
+    }
+
+    public int getxSpeed() {
+        return this.xSpeed;
+    }
+
+    public int getySpeed() {
+        return this.ySpeed;
     }
 
     @Override
