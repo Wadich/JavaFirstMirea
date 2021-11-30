@@ -4,7 +4,9 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Picture extends JPanel {
-    static Image img = new ImageIcon("C:\\Users\\Wadim\\IdeaProjects\\JavaFirstMirea\\src\\ru\\mirea\\task8\\opt2\\img.png").getImage();
+    static String currentDir = System.getProperty("user.dir");
+    static String path = currentDir + "/src/ru/mirea/task8/opt2/img.png";
+    static Image img = new ImageIcon(path).getImage();
 
     public void paintComponent (Graphics graphics){
         graphics.drawImage(img, 0, 0, null);

@@ -19,8 +19,9 @@ public class Animation extends JPanel {
 
 
     public static void main(String [] argv) throws InterruptedException {
+        String currentDir = System.getProperty("user.dir");
         for (int i=1; i<=47; i++) {
-            String path = "C:\\Users\\Wadim\\IdeaProjects\\JavaFirstMirea\\src\\ru\\mirea\\task8\\opt3\\frames\\ (" + i + ").png";
+            String path = currentDir + "/src/ru/mirea/task8/opt3/frames/ (" + i + ").png";
             Gif.add(new ImageIcon(path));
         }
         JFrame frame = new JFrame();
